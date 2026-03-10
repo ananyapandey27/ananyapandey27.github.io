@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ananya Pandey — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AP</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-btn" id="closeMenu">✕</button>
+    <ul>
+      <li><a href="#about" class="mm-link">About</a></li>
+      <li><a href="#experience" class="mm-link">Experience</a></li>
+      <li><a href="#projects" class="mm-link">Projects</a></li>
+      <li><a href="#skills" class="mm-link">Skills</a></li>
+      <li><a href="#contact" class="mm-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-orb orb1"></div>
+    <div class="hero-bg-orb orb2"></div>
+    <div class="hero-bg-orb orb3"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Accounting & Data Science</p>
+      <h1 class="hero-name reveal delay-1">Ananya<br><em>Pandey</em></h1>
+      <p class="hero-tagline reveal delay-2">
+        Turning data into decisions, where numbers meet narrative.
+      </p>
+      <div class="hero-actions reveal delay-3">
+        <a href="#about" class="btn-primary">Explore my work</a>
+        <a href="#contact" class="btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint reveal delay-4">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-label-col">
+        <span class="section-label">01 / About</span>
+      </div>
+      <div class="about-body">
+        <h2 class="section-heading reveal">A dual-degree student<br><em>with an eye for detail.</em></h2>
+        <p class="about-text reveal delay-1">
+          I'm Ananya, a sophomore at Rutgers University pursuing a B.S. in Accounting and a B.A. in Data Science (Statistics track), with consecutive Dean's List recognition. I'm drawn to the intersection of rigorous analysis and real-world impact.
+        </p>
+        <p class="about-text reveal delay-2">
+          From managing 20+ student service calls a day to creating data visualizations in R, I thrive in environments that demand both precision and adaptability. I'm fluent in English and Hindi, and proficient in Spanish, and I bring the same versatility to every technical and interpersonal challenge.
+        </p>
+        <div class="about-stats reveal delay-3">
+          <div class="stat">
+            <span class="stat-number">3×</span>
+            <span class="stat-desc">Dean's List</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">200K</span>
+            <span class="stat-desc">Rows analyzed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">02 / Experience</span>
+        <h2 class="section-heading">Where I've <em>contributed.</em></h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">Apr 2025 – Present</span>
+            <span class="timeline-tag">Leadership</span>
+          </div>
+          <div class="timeline-card">
+            <h3>One Stop Student Services: <em>Mentor</em></h3>
+            <p class="timeline-org">Rutgers University</p>
+            <ul>
+              <li>Train and onboard new student service agents on policies, systems, and service procedures.</li>
+              <li>Deliver instructional materials and walkthroughs for core systems, enhancing team productivity.</li>
+              <li>Mentor junior staff with real-time feedback, fostering a collaborative service environment.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-meta">
+            <span class="timeline-date">Sep 2024 – Present</span>
+            <span class="timeline-tag">Operations</span>
+          </div>
+          <div class="timeline-card">
+            <h3>One Stop Student Services: <em>Agent</em></h3>
+            <p class="timeline-org">Rutgers University</p>
+            <ul>
+              <li>Provide front-line support on financial aid, admissions, registration, and billing inquiries.</li>
+              <li>Maintain detailed student records, logging case data for 20+ calls per day.</li>
+              <li>Resolve complex issues leveraging Oracle and Salesforce across departments.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jun – Aug 2022</span>
+            <span class="timeline-tag">Marketing</span>
+          </div>
+          <div class="timeline-card">
+            <h3>Research & Marketing Intern</h3>
+            <p class="timeline-org">EdQuill</p>
+            <ul>
+              <li>Conducted competitive market analysis and product research on competitor offerings.</li>
+              <li>Wrote blog posts on market trends and created advertisements for EdQuill's brand.</li>
+              <li>Prepared weekly deliverables for stakeholder review in collaboration with the intern cohort.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-3">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jul – Aug 2023</span>
+            <span class="timeline-tag">Tech Education</span>
+          </div>
+          <div class="timeline-card">
+            <h3>Self-Paced Program Participant</h3>
+            <p class="timeline-org">Girls Who Code</p>
+            <ul>
+              <li>Completed an immersive program covering 4 programming languages.</li>
+              <li>Built 4 projects across data science, cybersecurity, and web design.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">03 / Projects</span>
+        <h2 class="section-heading">What I've <em>built.</em></h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card featured reveal">
+          <div class="project-card-inner">
+            <div class="project-tags">
+              <span class="tag">R</span>
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Visualization</span>
+            </div>
+            <h3>NYC Taxi & Weather Analysis</h3>
+            <p class="project-date">Group Project · December 2025</p>
+            <p class="project-desc">
+              Analyzed 200,000 observations from NYC Yellow Taxi and weather datasets to evaluate pricing, tipping behavior, and demand patterns. Cleaned large-scale data, engineered features (tip %, price per mile), and integrated taxi, weather, and geographic zone datasets via joins.
+            </p>
+            <ul class="project-highlights">
+              <li>Choropleth maps, regression plots & density heatmaps</li>
+              <li>Time-series animations for demand over time</li>
+              <li>Spatial and statistical multi-dataset analysis</li>
+            </ul>
+            <div class="project-tech">Posit Cloud · ggplot2 · dplyr · tidyverse</div>
+          </div>
+          <div class="project-visual">
+            <div class="viz-orb"></div>
+            <div class="viz-grid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container skills-grid">
+      <div class="skills-label-col">
+        <span class="section-label">04 / Skills</span>
+        <h2 class="section-heading reveal">Tools of<br><em>the trade.</em></h2>
+      </div>
+      <div class="skills-body">
+        <div class="skill-group reveal">
+          <h4 class="skill-group-title">Programming</h4>
+          <div class="skill-pills">
+            <span class="pill">R (ggplot2, dplyr, tidyverse)</span>
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">HTML</span>
+            <span class="pill">CSS</span>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-1">
+          <h4 class="skill-group-title">Software & Platforms</h4>
+          <div class="skill-pills">
+            <span class="pill">RStudio / Posit Cloud</span>
+            <span class="pill">Salesforce</span>
+            <span class="pill">Oracle SFP</span>
+            <span class="pill">Microsoft 365</span>
+            <span class="pill">Google Workspace</span>
+            <span class="pill">Canva</span>
+            <span class="pill">LMS</span>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-2">
+          <h4 class="skill-group-title">Languages</h4>
+          <div class="skill-pills">
+            <span class="pill">English: Fluent</span>
+            <span class="pill">Hindi: Fluent</span>
+            <span class="pill">Spanish: Proficient</span>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-3">
+          <h4 class="skill-group-title">Domain Knowledge</h4>
+          <div class="skill-pills">
+            <span class="pill">Financial Accounting</span>
+            <span class="pill">Managerial Accounting</span>
+            <span class="pill">Statistical Inference</span>
+            <span class="pill">Data Wrangling</span>
+            <span class="pill">Supply Chain</span>
+            <span class="pill">Data Structures</span>
+          </div>
+        </div>
+        <div class="skill-group reveal delay-4">
+          <h4 class="skill-group-title">Soft Skills</h4>
+          <div class="skill-pills">
+            <span class="pill">Time Management</span>
+            <span class="pill">Communication</span>
+            <span class="pill">Organization</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOLUNTEER -->
+  <section id="volunteer">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">05 / Volunteer</span>
+        <h2 class="section-heading">Giving <em>back.</em></h2>
+      </div>
+      <div class="volunteer-grid">
+        <div class="volunteer-card reveal">
+          <div class="vol-icon">◆</div>
+          <div>
+            <h3>HindiUSA Student Volunteer</h3>
+            <p class="vol-date">Sep 2021 – Jun 2024</p>
+            <p>Assisted in teaching the Hindi language, managed classrooms of 20+ students, graded coursework, and maintained LMS records for attendance and assignments.</p>
+          </div>
+        </div>
+        <div class="volunteer-card reveal delay-1">
+          <div class="vol-icon">◆</div>
+          <div>
+            <h3>SAI Math Academy: Tutor</h3>
+            <p class="vol-date">Nov 2022 – May 2024</p>
+            <p>Taught math to 10 elementary students from underprivileged backgrounds. Designed one-on-one lesson plans and administered assessments to track progress.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="hero-bg-orb orb-c1"></div>
+    <div class="hero-bg-orb orb-c2"></div>
+    <div class="container contact-inner">
+      <span class="section-label reveal">06 / Contact</span>
+      <h2 class="contact-heading reveal delay-1">Let's <em>connect.</em></h2>
+      <p class="contact-sub reveal delay-2">I'm open to internships and research opportunities about data, accounting, or anything in between.</p>
+      <a href="/cdn-cgi/l/email-protection#73121d121d0a1203121d17160a16170633141e121a1f5d101c1e" class="contact-email reveal delay-3"><span class="__cf_email__" data-cfemail="25444b444b5c4455444b41405c404150654248444c490b464a48">[email&#160;protected]</span></a>
+      <a href="https://www.linkedin.com/in/ananya-pandey-6513b8243/" target="_blank" rel="noopener noreferrer" class="btn-ghost reveal delay-4">LinkedIn Profile</a>
+      <div c
